@@ -83,7 +83,7 @@
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
+    z-index: 100;
 }
 
 .contenedor-img-carrusel{
@@ -130,6 +130,7 @@
 .img-swiper-movil{
     height: 100%;
     width: 100%;
+    z-index: 2;
 }
 
 
@@ -394,6 +395,9 @@
         border-radius: 8px;
         transform: translateX(-60px);
         border: 1px solid rgb(255, 255, 255);
+    }
+    #GaleríadeTrabajos{
+        scroll-margin-top: 55px;
     }
 }
 

@@ -197,7 +197,7 @@
 }
 @media screen and (max-width:600px) {
     .seccionServicios{
-        scroll-margin-top: 90px;
+        scroll-margin-top: 55px;
     }
 
     .contenedor-cards-servicios{

@@ -92,3 +92,14 @@
     }
     
 }
+@media screen and (max-width:600px) {
+    .seccionInicio{
+        height: calc(100vh - 70px);
+        margin-top: 70px;
+    }
+
+    .seccionInicio::before{
+        height: calc(100vh - 70px);
+    }
+    
+}

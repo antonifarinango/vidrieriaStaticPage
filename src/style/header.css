@@ -128,7 +128,7 @@ header{
 
 .nav-hamburguesa-active{
     background-color: var(--colorAzul);
-    top: 90px;
+    top: 70px;
     left: 0;
     position: absolute;
     width: 100%;
@@ -194,6 +194,14 @@ header{
     }
     .contenedor-nav-hamburguesa{
         display: flex;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    header{
+        justify-content: space-around;
+        height: 70px;
     }
     
 }
