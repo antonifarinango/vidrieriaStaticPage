@@ -2,7 +2,7 @@ import "./App.css";
 
 //COMPONENTES
 import Header from "./components/header";
-import Cotizacion from "./views/cotizacion";
+import Cotizacion from "./views/Cotizacion";
 
 //VISTAS
 import Inicio from "./views/Inicio";
