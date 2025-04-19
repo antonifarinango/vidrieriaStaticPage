@@ -27,7 +27,7 @@ export default function Cotizacion() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          to: "farinangoanthony1@hotmail.com",
+          to: "farinangoanthony1@gmail.com",
           subject: `Cotización de ${formulario.servicio}`,
           body: `<p><strong>Cliente : </strong>${formulario.nombre}</p>
         <p><strong>Teléfono Cliente : </strong>${formulario.telefono}</p>
