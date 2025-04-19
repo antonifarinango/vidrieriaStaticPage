@@ -1,0 +1,11 @@
+:root {
+  --colorAzul : #1E3A5F ;
+  --colorBlanco :#FFFFFF ;
+  --colorGris : #D3D3D3 ;
+  --colorDorado : #FFD700 ; 
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}

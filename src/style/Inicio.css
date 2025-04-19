@@ -1,0 +1,94 @@
+.seccionInicio{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 90px);
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    background-image: url("../assets/fondo-hero.webp");
+    margin-top: 90px;
+    scroll-margin-top: 90px;
+}
+/*
+    background-image: url("../assets/fondo-hero.jpg");
+     background-image: url('../../public/GaleriaImagenes/divisionesOficinaConDiseño1.webp');
+     */
+.seccionInicio::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    /*0.65*/
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: calc(100vh - 90px);
+}
+/*rgba(216, 202, 202, 0.329);*/
+.contenedor-texto-hero{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 900px;
+    height: 400px;
+    z-index: 1;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 1rem 0 1rem;
+    box-sizing: border-box;
+}
+
+.contenedor-texto-hero h1{
+    font-size: 65px;
+    color: #ffffff;
+}
+
+.contenedor-botones-hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btns-hero{
+    width: 200px;
+    height: 40px;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--colorDorado);
+    cursor: pointer;
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+.btns-hero a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*MOVILES*/
+@media screen and (max-width:1000px) {
+    .contenedor-texto-hero{
+        scale: 0.8;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .contenedor-texto-hero{
+        height: 500px;
+    }
+    
+    .contenedor-texto-hero h1{
+        font-size: 55px;
+    }
+    
+}

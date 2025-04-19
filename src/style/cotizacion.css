@@ -1,0 +1,196 @@
+#CotizarAhora{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/professional.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#CotizarAhora::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.521);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.contenedor-cotizar-ahora{
+    position: relative;
+    z-index: 2;
+}
+.contenedor-encabezado{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.contenedor-encabezado button{
+    background-color: rgb(12, 130, 138);
+    height: 30px;
+    width: 100px;
+    margin-left: 100px;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+.contenedor-encabezado button a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenedor-encabezado button a img{
+    height: 20px;
+}
+
+.contenedor-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.form-cotizacion{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: calc(180px + 300px);
+    justify-content: center;
+    align-items: end;
+}
+
+.form-cotizacion button{
+    width: 150px;
+    height: 30px;
+    border-style: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(12, 130, 138);
+    color: #fff;
+}
+.div-input-form{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap:10px;
+    justify-content: center;
+}
+
+.div-input-form label{
+    width: 180px;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.div-input-form input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    border-style: none;
+    outline-style: none;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: var(--colorGris);
+}
+
+.div-input-form select{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    outline-style: none;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: var(--colorGris);
+}
+.div-input-form textarea{
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: none;
+    outline-style: none;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: var(--colorGris);
+    resize: none;
+}
+
+.contenedor-beneficios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+    gap: 20px;
+    color: #fff;
+}
+.contenedor-beneficios ul li{
+    list-style: none;
+}
+
+.contenedor-horario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.asterisco{
+    color: rgb(240, 106, 106);
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .contenedor-encabezado{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-encabezado button{
+        margin-left: 0px;
+    }
+
+    .contenedor-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 30px;
+        box-sizing: border-box;
+        color: #fff;
+    }
+    
+    .form-cotizacion{
+        width: 100%;
+        align-items: center;
+    }
+
+    .div-input-form select{
+        max-width: 300px;
+        min-width: 214px;
+    }
+}

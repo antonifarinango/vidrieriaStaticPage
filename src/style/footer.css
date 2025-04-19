@@ -1,0 +1,126 @@
+.footer{
+    justify-content: center;
+    padding: 40px 10px;
+    height: auto;
+    display: flex;
+    gap: 100px;
+    background-color: var(--colorAzul);
+    border-top: solid 1px var(--colorBlanco);
+    width: 100%;
+    
+    box-sizing: border-box;
+}
+
+.contenedor-footer-logo{
+    display: flex;
+    width: 400px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    gap: 30px;
+}
+
+.footer-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.footer-span{
+    color: var(--colorBlanco);
+}
+
+
+.contenedor-footer-nav{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.footer-lista-desordenada{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-item-lista{
+    list-style: none;
+}
+
+.footer-item-lista a{
+    text-decoration: none;
+    color: var(--colorGris);
+}
+
+.btn-footer-cotizar{
+    background-color: var(--colorDorado);
+    height: 2rem;
+    border: none;
+    padding: 10px;
+    border-radius: 1rem;
+    color: var(--colorAzul);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.span-direccion{
+    color: var(--colorBlanco);
+    text-align: center;
+}
+.span-horario{
+    color: var(--colorBlanco);
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 16px;
+        box-sizing: border-box;
+        gap: 30px;
+    }
+
+    .contenedor-footer-nav{
+        width: 100%;
+    }
+
+    .footer-lista-desordenada{
+        text-align: center;
+        align-items: center;
+        gap: 14px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .footer{
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .footer{
+        gap: 0px;
+    }
+
+    .contenedor-footer-nav{
+        width: 90%;
+        gap: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .footer-item-lista{
+        font-size: 13px;
+    }
+
+}
