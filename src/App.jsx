@@ -41,11 +41,7 @@ function App() {
       </Routes>
 
       <Routes>
-        <Route path="/cotizar-ahora" element={
-          <>
-          <Cotizacion/>
-          </>
-        } />
+        <Route path="/cotizar-ahora" element={<Cotizacion/>} />
       </Routes>
     </BrowserRouter>
   );

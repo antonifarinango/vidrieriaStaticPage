@@ -58,57 +58,57 @@ export default function GaleriaTrabajos() {
   const imagenes = [
     {
       className: "alta",
-      src: "../../public/GaleriaImagenes/cortinaDeBaño1.webp",
+      src: "/GaleriaImagenes/cortinaDeBaño1.webp",
     },
-    { className: "grande", src: "../../public/GaleriaImagenes/puerta1.webp" },
+    { className: "grande", src: "/GaleriaImagenes/puerta1.webp" },
     {
       className: "grande",
-      src: "../../public/GaleriaImagenes/cortinaDeBaño2.webp",
+      src: "/GaleriaImagenes/cortinaDeBaño2.webp",
     },
     {
       className: "alta",
-      src: "../../public/GaleriaImagenes/cortinaDeBañoVidrio1.webp",
+      src: "/GaleriaImagenes/cortinaDeBañoVidrio1.webp",
     },
     {
       className: "alta",
-      src: "../../public/GaleriaImagenes/puerta4.webp",
+      src: "/GaleriaImagenes/puerta4.webp",
     },
     {
       className: "grande",
-      src: "../../public/GaleriaImagenes/divisionDeBaños2.webp",
+      src: "/GaleriaImagenes/divisionDeBaños2.webp",
     },
     {
       className: "alta",
-      src: "../../public/GaleriaImagenes/divisionOficina3.webp",
+      src: "/GaleriaImagenes/divisionOficina3.webp",
     },
     {
       className: "ancha",
-      src: "../../public/GaleriaImagenes/divisionesOficinaConDiseño1.webp",
+      src: "/GaleriaImagenes/divisionesOficinaConDiseño1.webp",
     },
     {
       className: "extra-grande",
-      src: "../../public/GaleriaImagenes/divisionOficina2.webp",
+      src: "/GaleriaImagenes/divisionOficina2.webp",
     },
     {
       className: "grande",
-      src: "../../public/GaleriaImagenes/puertaCorrediza1.webp",
+      src: "/GaleriaImagenes/puertaCorrediza1.webp",
     },
     {
       className: "grande",
-      src: "../../public/GaleriaImagenes/divisionOficina4.webp",
+      src: "/GaleriaImagenes/divisionOficina4.webp",
     },
-    { className: "ancha", src: "../../public/GaleriaImagenes/ventana3.webp" },
-    { className: "grande", src: "../../public/GaleriaImagenes/mampara3.webp" },
-    { className: "ancha", src: "../../public/GaleriaImagenes/puerta5.webp" },
+    { className: "ancha", src: "/GaleriaImagenes/ventana3.webp" },
+    { className: "grande", src: "/GaleriaImagenes/mampara3.webp" },
+    { className: "ancha", src: "/GaleriaImagenes/puerta5.webp" },
     {
       className: "grande",
-      src: "../../public/GaleriaImagenes/mamparaDeOficina4.webp",
+      src: "/GaleriaImagenes/mamparaDeOficina4.webp",
     },
-    { className: "grande", src: "../../public/GaleriaImagenes/mampara4.webp" },
-    { className: "alta", src: "../../public/GaleriaImagenes/puerta2.webp" },
-    { className: "grande", src: "../../public/GaleriaImagenes/mampara1.webp" },
-    { className: "alta", src: "../../public/GaleriaImagenes/puerta3.webp" },
-    { className: "ancha", src: "../../public/GaleriaImagenes/ventana2.webp" },
+    { className: "grande", src: "/GaleriaImagenes/mampara4.webp" },
+    { className: "alta", src: "/GaleriaImagenes/puerta2.webp" },
+    { className: "grande", src: "/GaleriaImagenes/mampara1.webp" },
+    { className: "alta", src: "/GaleriaImagenes/puerta3.webp" },
+    { className: "ancha", src: "/GaleriaImagenes/ventana2.webp" },
   ];
 
   return (
