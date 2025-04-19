@@ -41,7 +41,7 @@ export default function Header() {
   return (
     <header>
       <div className="contenedor-logo">
-        <img src="../../public/ventana-logo.webp" alt="ventanaLogo-header" />
+        <img src="/ventana-logo.webp" alt="ventanaLogo-header" />
         <span>F&I</span>
       </div>
 
