@@ -208,7 +208,7 @@
       flex-direction: column-reverse;
       gap: 30px;
       height: 85vh;
-      padding: 10px 0;
+      padding: 40px 0;
       box-sizing: border-box;
     }
   
@@ -255,8 +255,9 @@
       scroll-margin-top: 60px;
       gap: 10px;
       height: 95vh;
+      background-color: red;
     }
-  
+    
     .sobre-nosotros-img-novisible,
     .sobre-nosotros-img {
       width: 90%;
