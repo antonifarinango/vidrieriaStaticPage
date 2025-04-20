@@ -254,14 +254,13 @@
     .seccionSobreNosotros {
       scroll-margin-top: 60px;
       gap: 10px;
-      height: 95vh;
-      background-color: red;
+      height: 110vh;
     }
     
     .sobre-nosotros-img-novisible,
     .sobre-nosotros-img {
       width: 90%;
-      height: 297px;
+      height: 400px;
     }
   
     .sobre-nosotros-texto-novisible,
