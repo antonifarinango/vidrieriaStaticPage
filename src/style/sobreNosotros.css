@@ -58,10 +58,9 @@
     font-size: 20px;
 }
 .sobre-nosotros-img{
-    width: 450px;
-    height: 400px;
+    width: 650px;
+    height: 500px;
     transition: 0.7s;
-    margin-top: 60px;
     border-radius: 1rem;
     overflow: hidden;
 }
@@ -74,9 +73,8 @@
 .sobre-nosotros-img-novisible{
     visibility: hidden;
     width: 650px;
-    height: 400px;
+    height: 500px;
     transform: translateX(70px);
-    margin-top: 60px;
     opacity: 0;
     transition: 0.3s;
 }
@@ -89,125 +87,185 @@
 
 /*MOVILES*/
 
-@media screen and (max-width:1500px) {
-
-
+@media screen and (max-width: 1500px) {
     .seccionSobreNosotros {
-        flex-direction: column-reverse;
-        gap: 16px;
-        height: calc(100vh - 90px);
-        box-sizing: content-box;
+      flex-direction: column-reverse;
+      gap: 16px;
+      padding: 20px 0;
+      height: 95vh;
+      box-sizing: border-box;
+      scroll-margin-top: 80px;
     }
-
-    .sobre-nosotros-texto-novisible{
-        transform: translateY(10px);
-        transition: none;
-    }
-
-    .sobre-nosotros-img-novisible{
-        transform: translateY(-10px);
-        transition: none;
-    }
+  
+    .sobre-nosotros-texto-novisible,
     .sobre-nosotros-texto {
-        width: 60%;
-        padding: 0;
+      width: 60%;
+      padding: 0;
     }
-    .sobre-nosotros-texto p{
-        width: 100%;
-        font-size: 1rem;
+  
+    .sobre-nosotros-texto-novisible {
+      transform: translateY(50px);
+      transition: none;
     }
-    .sobre-nosotros-img{
-        width: 500px;
-        height: 51%;
-        margin-top: 0;
+  
+    .sobre-nosotros-texto-novisible p,
+    .sobre-nosotros-texto p {
+      width: 100%;
+      height: 100%;
+      font-size: 18px;
     }
-    .sobre-nosotros-img-novisible img{
-        width: 300px;
-        height: 300px;
+  
+    .sobre-nosotros-img-novisible,
+    .sobre-nosotros-img {
+      width: 580px;
+      height: 380px;
     }
-}
-@media screen and (max-width:1000px) {
+  
+    .sobre-nosotros-img-novisible {
+      transform: translateY(-50px);
+      transition: none;
+    }
+  
+    .sobre-nosotros-img {
+      transition: 0.7s;
+    }
+  
+    .sobre-nosotros-img-novisible img,
+    .sobre-nosotros-img img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
 
-    .seccionSobreNosotros{
-        flex-direction: column-reverse;
-        gap: 16px;
-        height: calc(100vh - 90px);
-        box-sizing: content-box;
-    }
 
-    .sobre-nosotros-texto-novisible{
-        transform: translateY(10px);
-        transition: none;
+@media screen and (max-width: 1000px) {
+    .seccionSobreNosotros {
+      flex-direction: column-reverse;
+      gap: 16px;
+      height: 90vh;
+      padding: 40px 0;
     }
-
-    .sobre-nosotros-img-novisible{
-        transform: translateY(-10px);
-        transition: none;
+  
+    .sobre-nosotros-img-novisible,
+    .sobre-nosotros-img {
+      width: 600px;
+      height: 450px;
     }
+  
+    .sobre-nosotros-img-novisible {
+      transform: translateY(-50px);
+      transition: none;
+    }
+  
+    .sobre-nosotros-img {
+      transition: 0.7s;
+    }
+  
+    .sobre-nosotros-img-novisible img,
+    .sobre-nosotros-img img {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .sobre-nosotros-texto-novisible,
     .sobre-nosotros-texto {
-        width: 60%;
-        padding: 0;
+      width: 650px;
+      padding: 0;
     }
-    .sobre-nosotros-texto p{
-        width: 100%;
-        font-size: 1rem;
+  
+    .sobre-nosotros-texto-novisible {
+      transform: translateY(50px);
     }
-    .sobre-nosotros-img{
-        width: 450px;
-        height: 40%;
-        margin-top: 0;
+  
+    .sobre-nosotros-texto-novisible p,
+    .sobre-nosotros-texto p {
+      width: 100%;
+      font-size: 1rem;
     }
-}
-
-@media screen and (max-width:800px) {
-    .sobre-nosotros-img{
-        width: 60%;
-        height: 40%;
-        transition: 0.2s;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .seccionSobreNosotros {
+      padding: 60px 0;
+      height: 100vh;
     }
-}
-
-@media screen and (max-width:600px) {
-
-    .seccionSobreNosotros{
-        scroll-margin-top: 55px;
+  
+    .sobre-nosotros-img-novisible,
+    .sobre-nosotros-img {
+      width: 600px;
+      height: 550px;
     }
-    
-
-    .sobre-nosotros-texto-novisible{
-        transform: translateY(70px);
-        transition: none;
-        width: 300px;
+  
+    .sobre-nosotros-img img {
+      transition: none;
     }
-
-    .sobre-nosotros-img-novisible{
-        transform: translateY(-0px);
-        transition: none;
-        width: 300px;
-        height: 300px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .seccionSobreNosotros {
+      scroll-margin-top: 100px;
+      flex-direction: column-reverse;
+      gap: 30px;
+      height: 85vh;
+      padding: 10px 0;
+      box-sizing: border-box;
     }
-
-    .seccionSobreNosotros{
-        flex-direction: column-reverse;
-        gap: 10px;
-        height: 100vh;
-        padding: 30px 0;
-        box-sizing: border-box;
+  
+    .sobre-nosotros-img-novisible,
+    .sobre-nosotros-img {
+      width: 450px;
+      height: 300px;
     }
+  
+    .sobre-nosotros-img-novisible {
+      transform: translateY(-50px);
+      transition: none;
+    }
+  
+    .sobre-nosotros-img {
+      transition: 0.7s;
+    }
+  
+    .sobre-nosotros-texto-novisible,
     .sobre-nosotros-texto {
-        width: 90%;
-        padding: 0;
-        
-    transition: none;
+      width: 90%;
+      padding: 0;
     }
-    .sobre-nosotros-texto p{
-        width: 100%;
-        font-size: 1rem;
+  
+    .sobre-nosotros-texto-novisible {
+      transform: translateY(50px);
+      transition: none;
     }
-    .sobre-nosotros-img{
-        width: 90%;
-        height: 42%;
-        transition: none;
+  
+    .sobre-nosotros-texto {
+      transition: 1s;
     }
-    
-}
+  
+    .sobre-nosotros-texto-novisible p {
+      height: 477px;
+      font-size: 1rem;
+      padding: 0;
+    }
+  
+  }
+  
+  @media screen and (max-width: 500px) {
+    .seccionSobreNosotros {
+      scroll-margin-top: 60px;
+      gap: 10px;
+      height: 95vh;
+    }
+  
+    .sobre-nosotros-img-novisible,
+    .sobre-nosotros-img {
+      width: 90%;
+      height: 297px;
+    }
+  
+    .sobre-nosotros-texto-novisible,
+    .sobre-nosotros-texto {
+      width: 90%;
+    }
+  }
+  

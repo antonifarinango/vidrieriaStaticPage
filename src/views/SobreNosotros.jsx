@@ -3,6 +3,7 @@ import "../style/sobreNosotros.css";
 
 //COMPONENTS
 import useIntersectionObserver from "../components/intersectionObserver";
+import resizeObserver from "../components/resizeObserver";
 
 //IMG
 import sobreNostrosImg from "../assets/SobreNosotros.webp";
@@ -10,7 +11,11 @@ export default function SobreNostros() {
 
   const seccionSobreNosotrosRef = useRef(null);
 
-  const seccionSobreNosotrosInterceptada = useIntersectionObserver({threshold: 0.85},seccionSobreNosotrosRef);
+  const nodoTamaño = resizeObserver(seccionSobreNosotrosRef);
+
+  const tamaño = nodoTamaño.width < 500;
+
+  const seccionSobreNosotrosInterceptada = useIntersectionObserver({threshold:tamaño ? 0.4 : 0.85},seccionSobreNosotrosRef);
 
   return (
     <section ref={seccionSobreNosotrosRef} id="SobreNosotros" className="seccionSobreNosotros">

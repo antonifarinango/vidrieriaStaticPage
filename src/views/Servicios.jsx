@@ -18,11 +18,14 @@ export default function Servicios() {
 
   const seccionServiciosRef = useRef(null);
 
-  const seccionServiciosInterceptada = useIntersectionObserver({threshold: 0.7},seccionServiciosRef)
+  
 
   const nodoTamaño = resizeObserver(seccionServiciosRef);
 
   const tamaño = nodoTamaño.width < 500;
+
+const seccionServiciosInterceptada = useIntersectionObserver({threshold: tamaño ? 0.3 : 0.7},seccionServiciosRef)
+
 
   const lista = [
     {

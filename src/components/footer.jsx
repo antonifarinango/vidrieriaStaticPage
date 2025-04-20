@@ -5,7 +5,7 @@ export default function footer() {
   return (
     <footer className="footer">
       <div className="contenedor-footer-logo">
-        <img className="footer-logo" src="../../public/ventana-logo.webp" alt="ventana-logo" />
+        <img className="footer-logo" src="/ventana-logo.webp" alt="ventana-logo" />
         <span className="footer-span">
         Dale transparencia y estilo a tu espacio.
         </span>
